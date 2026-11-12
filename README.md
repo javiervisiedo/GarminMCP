@@ -1,6 +1,6 @@
 # Garmin Coach MCP Server (`garmin-coach-mcp`)
 
-An elite **Personal Health, Running, and Fitness Coach** [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server powered by Garmin Connect telemetry. Built on the official Python `mcp` SDK (`FastMCP`), `garminconnect`, `garth`, and `Pydantic v2`, this server transforms noisy, deeply nested Garmin Connect API responses into **token-efficient, coach-ready Markdown and structured JSON** for both **local AI clients** (`stdio` for Claude Desktop, Cursor, Antigravity, and Gemini CLI) and **remote web/cloud clients** (`streamable-http` over HTTPS with Bearer token authentication for `gemini.google.com` Connected Apps, Gemini Mobile, and Gemini Enterprise on Google Cloud Run).
+A **Personal Health, Running, and Fitness Coach** [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server powered by Garmin Connect telemetry. Built on the official Python `mcp` SDK (`FastMCP`), `garminconnect`, `garth`, and `Pydantic v2`, this server transforms noisy, deeply nested Garmin Connect API responses into **token-efficient, coach-ready Markdown and structured JSON** for both **local AI clients** (`stdio` for Claude Desktop, Cursor, Antigravity, and Gemini CLI) and **remote web/cloud clients** (`streamable-http` over HTTPS with Bearer token authentication for `gemini.google.com` Connected Apps, Gemini Mobile, and Gemini Enterprise on Google Cloud Run).
 
 ---
 
