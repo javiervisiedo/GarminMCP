@@ -1,0 +1,76 @@
+{
+  "fullName": "Alex Rivera",
+  "displayName": "alex_rivera_runs",
+  "userProfile": {
+    "id": 84920145,
+    "profileId": 84920145,
+    "fullName": "Alex Rivera",
+    "displayName": "alex_rivera_runs",
+    "userName": "alex.rivera@example.com"
+  },
+  "userData": {
+    "gender": "MALE",
+    "weight": 68400.0,
+    "height": 180.0,
+    "birthDate": "1992-05-14",
+    "measurementSystem": "metric",
+    "vo2MaxRunning": 56.2,
+    "vo2MaxCycling": 58.0,
+    "lactateThresholdSpeed": 4.1666667,
+    "lactateThresholdHeartRate": 174,
+    "maxHeartRate": 192,
+    "restingHeartRate": 46,
+    "functionalThresholdPower": 285
+  },
+  "hrZones": [
+    {"zoneNumber": 1, "name": "Warm Up / Recovery", "lowerBound": 115, "upperBound": 134, "unit": "bpm"},
+    {"zoneNumber": 2, "name": "Easy / Aerobic Base", "lowerBound": 135, "upperBound": 153, "unit": "bpm"},
+    {"zoneNumber": 3, "name": "Aerobic Tempo", "lowerBound": 154, "upperBound": 166, "unit": "bpm"},
+    {"zoneNumber": 4, "name": "Lactate Threshold", "lowerBound": 167, "upperBound": 178, "unit": "bpm"},
+    {"zoneNumber": 5, "name": "VO2 Max / Anaerobic", "lowerBound": 179, "upperBound": 192, "unit": "bpm"}
+  ],
+  "paceZones": [
+    {"zoneNumber": 1, "name": "Recovery", "lowerBound": 3.03, "upperBound": 3.33, "unit": "m/s"},
+    {"zoneNumber": 2, "name": "Easy Aerobic", "lowerBound": 3.34, "upperBound": 3.70, "unit": "m/s"},
+    {"zoneNumber": 3, "name": "Marathon / Tempo", "lowerBound": 3.71, "upperBound": 4.00, "unit": "m/s"},
+    {"zoneNumber": 4, "name": "Threshold", "lowerBound": 4.01, "upperBound": 4.26, "unit": "m/s"},
+    {"zoneNumber": 5, "name": "VO2 Max Interval", "lowerBound": 4.27, "upperBound": 5.00, "unit": "m/s"}
+  ],
+  "powerZones": [
+    {"zoneNumber": 1, "name": "Active Recovery", "lowerBound": 0, "upperBound": 156, "unit": "W"},
+    {"zoneNumber": 2, "name": "Endurance", "lowerBound": 157, "upperBound": 213, "unit": "W"},
+    {"zoneNumber": 3, "name": "Tempo", "lowerBound": 214, "upperBound": 256, "unit": "W"},
+    {"zoneNumber": 4, "name": "Lactate Threshold", "lowerBound": 257, "upperBound": 299, "unit": "W"},
+    {"zoneNumber": 5, "name": "VO2 Max", "lowerBound": 300, "upperBound": 342, "unit": "W"}
+  ],
+  "personalRecords": [
+    {
+      "typeId": 3,
+      "typeKey": "fastest_5k",
+      "activityType": "running",
+      "value": 1065.0,
+      "actStartDateTimeInGMTFormatted": "2026-09-20"
+    },
+    {
+      "typeId": 4,
+      "typeKey": "fastest_10k",
+      "activityType": "running",
+      "value": 2232.0,
+      "actStartDateTimeInGMTFormatted": "2026-10-18"
+    },
+    {
+      "typeId": 5,
+      "typeKey": "fastest_half_marathon",
+      "activityType": "running",
+      "value": 4910.0,
+      "actStartDateTimeInGMTFormatted": "2026-04-12"
+    },
+    {
+      "typeId": 6,
+      "typeKey": "fastest_marathon",
+      "activityType": "running",
+      "value": 10345.0,
+      "actStartDateTimeInGMTFormatted": "2025-11-02"
+    }
+  ]
+}

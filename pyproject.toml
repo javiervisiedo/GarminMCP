@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "garmin-coach-mcp"
+version = "0.1.0"
+description = "Elite Personal Health, Running, and Fitness Coach MCP Server powered by Garmin Connect telemetry."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Garmin Coach MCP Contributors" }
+]
+dependencies = [
+    "mcp>=1.2.0,<2.0.0",
+    "garminconnect>=0.2.25",
+    "garth>=0.4.46",
+    "pydantic>=2.6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=5.0.0",
+]
+
+[project.scripts]
+garmin-coach-mcp = "garmin_coach_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

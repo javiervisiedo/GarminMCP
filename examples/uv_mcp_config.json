@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "garmin-coach": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/GarminMCP",
+        "run",
+        "garmin-coach-mcp"
+      ],
+      "env": {
+        "GARMIN_TOKEN_DIR": "~/.garminconnect",
+        "GARMIN_CACHE_DIR": "~/.cache/garmin-coach-mcp",
+        "GARMIN_CACHE_TTL": "900",
+        "GARMIN_UNITS": "metric"
+      }
+    }
+  }
+}

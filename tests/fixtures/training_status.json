@@ -1,0 +1,89 @@
+{
+  "userId": 84920145,
+  "calendarDate": "2026-11-11",
+  "vo2MaxRunning": 56.2,
+  "vo2MaxCycling": 58.0,
+  "mostRecentVO2Max": {
+    "userId": 84920145,
+    "generic": {
+      "calendarDate": "2026-11-11",
+      "vo2MaxPreciseValue": 56.2,
+      "vo2MaxValue": 56.0,
+      "fitnessAge": 26
+    },
+    "cycling": {
+      "calendarDate": "2026-11-10",
+      "vo2MaxPreciseValue": 58.0,
+      "vo2MaxValue": 58.0,
+      "fitnessAge": 26
+    }
+  },
+  "mostRecentTrainingLoadBalance": {
+    "userId": 84920145,
+    "metricsTrainingLoadBalanceDTOMap": {
+      "84920145": {
+        "calendarDate": "2026-11-11",
+        "monthlyLoadAerobicLow": 485.0,
+        "monthlyLoadAerobicHigh": 610.0,
+        "monthlyLoadAnaerobic": 215.0,
+        "monthlyLoadAerobicLowTargetMin": 400.0,
+        "monthlyLoadAerobicLowTargetMax": 700.0,
+        "monthlyLoadAerobicHighTargetMin": 500.0,
+        "monthlyLoadAerobicHighTargetMax": 850.0,
+        "monthlyLoadAnaerobicTargetMin": 150.0,
+        "monthlyLoadAnaerobicTargetMax": 350.0,
+        "trainingBalanceFeedbackPhrase": "BALANCED"
+      }
+    }
+  },
+  "mostRecentTrainingStatus": {
+    "userId": 84920145,
+    "latestTrainingStatusData": {
+      "84920145": {
+        "calendarDate": "2026-11-11",
+        "trainingStatus": 7,
+        "trainingStatusKey": "PRODUCTIVE_1",
+        "trainingStatusFeedbackPhrase": "PRODUCTIVE_1",
+        "acuteTrainingLoadDTO": {
+          "acwrPercent": 110,
+          "acwrStatus": "OPTIMAL",
+          "acwrStatusFeedback": "FEEDBACK_2",
+          "dailyTrainingLoadAcute": 640,
+          "maxTrainingLoadChronic": 870.0,
+          "minTrainingLoadChronic": 464.0,
+          "dailyTrainingLoadChronic": 580,
+          "dailyAcuteChronicWorkloadRatio": 1.10
+        }
+      }
+    }
+  },
+  "acuteLoad": 640.0,
+  "chronicLoad": 580.0,
+  "loadRatio": 1.10,
+  "acwrStatus": "OPTIMAL",
+  "lowAerobicLoad": 485.0,
+  "highAerobicLoad": 610.0,
+  "anaerobicLoad": 215.0,
+  "loadFocus": "BALANCED",
+  "trainingStatusKey": "PRODUCTIVE_1",
+  "trainingStatusFeedbackPhrase": "PRODUCTIVE_1",
+  "enduranceScore": {
+    "userProfilePK": 84920145,
+    "calendarDate": "2026-11-11",
+    "overallScore": 7420,
+    "classification": "WELL_TRAINED",
+    "classificationId": 5
+  },
+  "hillScore": {
+    "userProfilePK": 84920145,
+    "calendarDate": "2026-11-11",
+    "overallScore": 68,
+    "strengthScore": 21,
+    "enduranceScore": 36
+  },
+  "fitnessAge": {
+    "chronologicalAge": 34,
+    "fitnessAge": 26.0,
+    "achievableFitnessAge": 24.5
+  }
+}

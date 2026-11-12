@@ -1,0 +1,77 @@
+{
+  "dailySleepDTO": {
+    "id": 1731308400000,
+    "userProfilePK": 84920145,
+    "calendarDate": "2026-11-11",
+    "sleepTimeSeconds": 27900,
+    "napTimeSeconds": 0,
+    "sleepStartTimestampGMT": 1731274200000,
+    "sleepEndTimestampGMT": 1731303000000,
+    "sleepStartTimestampLocal": 1731277800000,
+    "sleepEndTimestampLocal": 1731306600000,
+    "deepSleepSeconds": 5400,
+    "lightSleepSeconds": 16200,
+    "remSleepSeconds": 6300,
+    "awakeSleepSeconds": 900,
+    "averageSpO2Value": 96.5,
+    "lowestSpO2Value": 93,
+    "highestSpO2Value": 99,
+    "averageRespirationValue": 13.8,
+    "lowestRespirationValue": 11.5,
+    "highestRespirationValue": 16.0,
+    "avgSleepStress": 13.2,
+    "restingHeartRate": 46,
+    "avgOvernightHrv": 68.0,
+    "hrvStatus": "BALANCED",
+    "sleepNeed": {
+      "baseline": 470,
+      "actual": 465,
+      "feedback": "OPTIMAL"
+    },
+    "sleepScores": {
+      "totalDuration": {
+        "qualifierKey": "GOOD",
+        "value": 85
+      },
+      "stress": {
+        "qualifierKey": "EXCELLENT",
+        "value": 90
+      },
+      "awakeCount": {
+        "qualifierKey": "EXCELLENT",
+        "value": 88
+      },
+      "overall": {
+        "qualifierKey": "GOOD",
+        "qualifier": "GOOD",
+        "value": 84
+      },
+      "remPercentage": {
+        "qualifierKey": "OPTIMAL",
+        "value": 86,
+        "optimalStart": 20.0,
+        "optimalEnd": 25.0
+      },
+      "restlessness": {
+        "qualifierKey": "GOOD",
+        "value": 82
+      },
+      "lightPercentage": {
+        "qualifierKey": "OPTIMAL",
+        "value": 80,
+        "optimalStart": 45.0,
+        "optimalEnd": 65.0
+      },
+      "deepPercentage": {
+        "qualifierKey": "OPTIMAL",
+        "value": 83,
+        "optimalStart": 16.0,
+        "optimalEnd": 33.0
+      }
+    }
+  },
+  "restingHeartRate": 46,
+  "avgOvernightHrv": 68.0,
+  "hrvStatus": "BALANCED",
+  "bodyBatteryChange": 62
+}

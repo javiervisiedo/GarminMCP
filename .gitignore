@@ -1,0 +1,60 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build & packaging artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Type checking & linting caches
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables & secrets (NEVER commit credentials or tokens)
+.env
+.env.*
+!.env.example
+.garminconnect/
+oauth1_token.json
+oauth2_token.json
+garmin_tokens.json
+garmin_token_b64.txt
+*_token*.txt
+
+# Local SQLite cache & database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+.cache/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Requirement specifications & local documentation
+documentation/
+docs/
+PRD.md
+*PRD*.md
+requirements_spec*

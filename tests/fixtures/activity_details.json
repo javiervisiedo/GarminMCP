@@ -1,0 +1,228 @@
+{
+  "activityId": 17501001,
+  "activityName": "Threshold Interval Run - 4x1km @ LT",
+  "activityTypeDTO": {
+    "typeId": 1,
+    "typeKey": "running",
+    "parentTypeId": 17
+  },
+  "summaryDTO": {
+    "startTimeLocal": "2026-11-10 07:15:00",
+    "startTimeGMT": "2026-11-10 06:15:00",
+    "distance": 10500.0,
+    "duration": 2730.0,
+    "movingDuration": 2725.0,
+    "elapsedDuration": 2765.0,
+    "elevationGain": 85.0,
+    "elevationLoss": 83.0,
+    "averageSpeed": 3.8461538,
+    "maxSpeed": 4.5454545,
+    "calories": 645.0,
+    "averageHR": 162.0,
+    "maxHR": 181.0,
+    "averageRunCadence": 178.0,
+    "maxRunCadence": 188.0,
+    "averagePower": 318.0,
+    "maxPower": 412.0,
+    "normalizedPower": 328.0,
+    "trainingEffect": 3.8,
+    "anaerobicTrainingEffect": 2.1,
+    "trainingEffectLabel": "LACTATE_THRESHOLD",
+    "activityTrainingLoad": 148.5
+  },
+  "lapDTOs": [
+    {
+      "lapIndex": 1,
+      "distance": 2500.0,
+      "duration": 720.0,
+      "averageSpeed": 3.4722222,
+      "averageHR": 144,
+      "maxHR": 154,
+      "averagePower": 275.0,
+      "averageRunCadence": 172.0,
+      "elevationGain": 20.0,
+      "elevationLoss": 15.0,
+      "intensityType": "WARMUP"
+    },
+    {
+      "lapIndex": 2,
+      "distance": 1000.0,
+      "duration": 236.0,
+      "averageSpeed": 4.237288,
+      "averageHR": 171,
+      "maxHR": 176,
+      "averagePower": 355.0,
+      "averageRunCadence": 182.0,
+      "elevationGain": 10.0,
+      "elevationLoss": 8.0,
+      "intensityType": "INTERVAL"
+    },
+    {
+      "lapIndex": 3,
+      "distance": 400.0,
+      "duration": 135.0,
+      "averageSpeed": 2.962963,
+      "averageHR": 151,
+      "maxHR": 168,
+      "averagePower": 235.0,
+      "averageRunCadence": 168.0,
+      "elevationGain": 4.0,
+      "elevationLoss": 5.0,
+      "intensityType": "RECOVERY"
+    },
+    {
+      "lapIndex": 4,
+      "distance": 1000.0,
+      "duration": 235.0,
+      "averageSpeed": 4.255319,
+      "averageHR": 173,
+      "maxHR": 178,
+      "averagePower": 358.0,
+      "averageRunCadence": 183.0,
+      "elevationGain": 12.0,
+      "elevationLoss": 10.0,
+      "intensityType": "INTERVAL"
+    },
+    {
+      "lapIndex": 5,
+      "distance": 400.0,
+      "duration": 136.0,
+      "averageSpeed": 2.9411764,
+      "averageHR": 153,
+      "maxHR": 170,
+      "averagePower": 232.0,
+      "averageRunCadence": 168.0,
+      "elevationGain": 5.0,
+      "elevationLoss": 6.0,
+      "intensityType": "RECOVERY"
+    },
+    {
+      "lapIndex": 6,
+      "distance": 1000.0,
+      "duration": 234.0,
+      "averageSpeed": 4.2735043,
+      "averageHR": 175,
+      "maxHR": 180,
+      "averagePower": 362.0,
+      "averageRunCadence": 184.0,
+      "elevationGain": 11.0,
+      "elevationLoss": 12.0,
+      "intensityType": "INTERVAL"
+    },
+    {
+      "lapIndex": 7,
+      "distance": 400.0,
+      "duration": 135.0,
+      "averageSpeed": 2.962963,
+      "averageHR": 155,
+      "maxHR": 172,
+      "averagePower": 234.0,
+      "averageRunCadence": 169.0,
+      "elevationGain": 4.0,
+      "elevationLoss": 4.0,
+      "intensityType": "RECOVERY"
+    },
+    {
+      "lapIndex": 8,
+      "distance": 1000.0,
+      "duration": 233.0,
+      "averageSpeed": 4.2918453,
+      "averageHR": 177,
+      "maxHR": 181,
+      "averagePower": 366.0,
+      "averageRunCadence": 185.0,
+      "elevationGain": 9.0,
+      "elevationLoss": 10.0,
+      "intensityType": "INTERVAL"
+    },
+    {
+      "lapIndex": 9,
+      "distance": 2800.0,
+      "duration": 666.0,
+      "averageSpeed": 3.45,
+      "averageHR": 148,
+      "maxHR": 165,
+      "averagePower": 270.0,
+      "averageRunCadence": 173.0,
+      "elevationGain": 10.0,
+      "elevationLoss": 13.0,
+      "intensityType": "COOLDOWN"
+    }
+  ],
+  "hrTimeInZones": [
+    {
+      "zoneNumber": 1,
+      "zoneLowBoundary": 115,
+      "zoneHighBoundary": 134,
+      "secsInZone": 180.0
+    },
+    {
+      "zoneNumber": 2,
+      "zoneLowBoundary": 135,
+      "zoneHighBoundary": 153,
+      "secsInZone": 1210.0
+    },
+    {
+      "zoneNumber": 3,
+      "zoneLowBoundary": 154,
+      "zoneHighBoundary": 166,
+      "secsInZone": 380.0
+    },
+    {
+      "zoneNumber": 4,
+      "zoneLowBoundary": 167,
+      "zoneHighBoundary": 178,
+      "secsInZone": 840.0
+    },
+    {
+      "zoneNumber": 5,
+      "zoneLowBoundary": 179,
+      "zoneHighBoundary": 192,
+      "secsInZone": 120.0
+    }
+  ],
+  "powerTimeInZones": [
+    {
+      "zoneNumber": 1,
+      "zoneLowBoundary": 0,
+      "zoneHighBoundary": 220,
+      "secsInZone": 150.0
+    },
+    {
+      "zoneNumber": 2,
+      "zoneLowBoundary": 221,
+      "zoneHighBoundary": 285,
+      "secsInZone": 1420.0
+    },
+    {
+      "zoneNumber": 3,
+      "zoneLowBoundary": 286,
+      "zoneHighBoundary": 325,
+      "secsInZone": 210.0
+    },
+    {
+      "zoneNumber": 4,
+      "zoneLowBoundary": 326,
+      "zoneHighBoundary": 370,
+      "secsInZone": 890.0
+    },
+    {
+      "zoneNumber": 5,
+      "zoneLowBoundary": 371,
+      "zoneHighBoundary": 500,
+      "secsInZone": 60.0
+    }
+  ],
+  "weatherDTO": {
+    "temp": 57.2,
+    "apparentTemp": 55.4,
+    "temperatureC": 14.0,
+    "apparentTemperatureC": 13.0,
+    "relativeHumidity": 62,
+    "windSpeed": 11.5,
+    "weatherTypeDTO": {
+      "weatherTypePk": 2,
+      "desc": "Partly Cloudy"
+    }
+  }
+}

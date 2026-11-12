@@ -1,0 +1,72 @@
+{
+  "startDate": "2026-10-12",
+  "endDate": "2026-11-11",
+  "dateWeightList": [
+    {
+      "samplePk": 1731308400,
+      "date": 1731283200000,
+      "calendarDate": "2026-11-11",
+      "weight": 68400.0,
+      "bmi": 21.1,
+      "bodyFat": 12.4,
+      "bodyWater": 63.8,
+      "boneMass": 3200.0,
+      "muscleMass": 56500.0,
+      "physiqueRating": 8,
+      "visceralFat": 4,
+      "metabolicAge": 23
+    },
+    {
+      "samplePk": 1730680000,
+      "date": 1730678400000,
+      "calendarDate": "2026-11-04",
+      "weight": 68700.0,
+      "bmi": 21.2,
+      "bodyFat": 12.6,
+      "bodyWater": 63.6,
+      "boneMass": 3200.0,
+      "muscleMass": 56400.0,
+      "physiqueRating": 8,
+      "visceralFat": 4,
+      "metabolicAge": 23
+    },
+    {
+      "samplePk": 1728700000,
+      "date": 1728691200000,
+      "calendarDate": "2026-10-12",
+      "weight": 69100.0,
+      "bmi": 21.3,
+      "bodyFat": 12.9,
+      "bodyWater": 63.3,
+      "boneMass": 3200.0,
+      "muscleMass": 56200.0,
+      "physiqueRating": 8,
+      "visceralFat": 4,
+      "metabolicAge": 24
+    }
+  ],
+  "totalAverage": {
+    "from": 1728691200000,
+    "until": 1731283200000,
+    "weight": 68733.3,
+    "bmi": 21.2,
+    "bodyFat": 12.63,
+    "bodyWater": 63.57,
+    "boneMass": 3200.0,
+    "muscleMass": 56366.7
+  },
+  "hydration": {
+    "calendarDate": "2026-11-11",
+    "valueInML": 2850.0,
+    "goalInML": 3000.0
+  },
+  "biometrics": {
+    "lactateThresholdHeartRate": 174,
+    "lactateThresholdSpeed": 4.1666667,
+    "maxHeartRate": 192,
+    "restingHeartRate": 46,
+    "functionalThresholdPower": 285,
+    "vo2MaxRunning": 56.2,
+    "vo2MaxCycling": 58.0
+  }
+}

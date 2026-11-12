@@ -1,0 +1,29 @@
+# Virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Version control
+.git/
+.gitignore
+
+# Secrets, local tokens, and local SQLite cache databases
+.env
+.env.*
+!.env.example
+.garminconnect/
+garmin_token_b64.txt
+*.db
+*.sqlite
+*.sqlite3
+
+# Test suite
+tests/
